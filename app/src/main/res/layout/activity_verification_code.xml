@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_border_background"
+    android:layout_margin="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verification Code"
+        android:textSize="25sp"
+        android:textColor="@color/colorBlack"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We have sent a verification code on your phone
+number +855 92123123. Please enter
+the verification code below"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_edit_text_verify_code_box"
+            android:layout_margin="5dp"
+            android:inputType="number"/>
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_edit_text_verify_code_box"
+            android:layout_margin="5dp"
+            android:inputType="number"/>
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_edit_text_verify_code_box"
+            android:layout_margin="5dp"
+            android:inputType="number"/>
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_edit_text_verify_code_box"
+            android:layout_margin="5dp"
+            android:inputType="number"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Have not received the verify code yet"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resend Code"
+        android:layout_gravity="center"
+        android:textColor="#B3F7A94A"/>
+</LinearLayout>
