@@ -36,6 +36,7 @@
         android:layout_marginLeft="25dp">
 
         <EditText
+            android:id="@+id/etxt_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
@@ -43,10 +44,11 @@
             android:drawableLeft="@drawable/ic_action_email"/>
 
         <EditText
+            android:id="@+id/etxt_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
-            android:inputType="numberPassword"
+            android:inputType="textPassword"
             android:drawableLeft="@drawable/ic_action_password"/>
 
     </LinearLayout>
