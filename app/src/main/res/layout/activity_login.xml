@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:text="Login"
             android:layout_marginTop="30dp"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <ImageView
             android:layout_width="100dp"
@@ -107,7 +107,6 @@
             android:layout_height="wrap_content"
             android:text="Don't have Account yet?"
             android:layout_below="@id/img_facebook"
-            android:textColor="@color/colorBlack"
             android:layout_marginTop="10dp"/>
 
         <Button

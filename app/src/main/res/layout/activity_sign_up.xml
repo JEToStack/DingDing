@@ -30,13 +30,14 @@
         <EditText
             android:layout_width="210dp"
             android:layout_height="30dp"
-            android:text="Email or Phone Number"
+            android:hint="Email or Phone Number"
             android:background="@drawable/custom_border_background"
             android:textSize="12dp"
             android:textAlignment="center"
             android:layout_marginTop="35dp"/>
 
         <ImageView
+            android:id="@+id/img_next"
             android:layout_width="45dp"
             android:layout_height="45dp"
             android:src="@drawable/ic_action_next"
@@ -49,7 +50,6 @@
             android:text="Next"
             android:layout_marginTop="10dp"
             android:textSize="15dp"/>
-
 
     </LinearLayout>
 

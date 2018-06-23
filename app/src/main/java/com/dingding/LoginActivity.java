@@ -21,6 +21,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_login);
+
 //        Reference to Forgot Password textView
         TextView txtForgotPassword = findViewById(R.id.txt_forgotPassword);
 
@@ -56,6 +57,11 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         etxtPassword = findViewById(R.id.etxt_password);
     }
 
+    private void startForgotPasswordActivity(){
+        Intent intent = new Intent( this, ForgotPasswordActivity.class);
+        startActivity(intent);
+    }
+
     private void startMainActivity(){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
@@ -74,6 +80,10 @@ public class LoginActivity extends Activity implements View.OnClickListener {
             String password =etxtPassword.getText().toString();
             String message = "This function is under construction.\nemail: " + email + "\nPassword: " + password;
             Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+        }
+
+        else if (view.getId() == R.id.txt_forgotPassword){
+            startForgotPasswordActivity();
         }
 
         else if (view.getId() == R.id.btn_signup){

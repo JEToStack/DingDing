@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Ding Ding</string>
+    <string name="resend_code"><strong>Resend Code</strong></string>
 </resources>
