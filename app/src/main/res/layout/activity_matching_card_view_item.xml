@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:layout_centerInParent="true"
+        android:id="@+id/card_view"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        app:cardCornerRadius="10dp">
+        <ImageView
+            android:id="@+id/matching_user_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/user_profile_pic"
+            android:scaleType="centerCrop"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:scrollbars="none">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Matching"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:paddingTop="25dp"
+                android:paddingBottom="25dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:paddingTop="25dp"
+                android:paddingBottom="25dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
