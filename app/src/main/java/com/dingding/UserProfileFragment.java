@@ -32,12 +32,17 @@ public class UserProfileFragment extends Fragment implements View.OnClickListene
     }
 
     private void startSettingActivity(){
-        Intent intent =new Intent( this, SettingActivity.class);
+        Intent intent = new Intent(getActivity(), SettingActivity.class);
         startActivity(intent);
     }
 
     @Override
-    public void onClick(View v) {
+    public void onClick(View view) {
+
+
+        if (view.getId() == R.id.img_setting){
+            startSettingActivity();
+        }
 
     }
 }
