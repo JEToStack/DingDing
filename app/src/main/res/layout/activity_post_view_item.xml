@@ -4,7 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="10dp"
-    android:paddingRight="10dp">
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/user_profile_pic"
             android:layout_width="50dp"
@@ -21,6 +23,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"/>
         <TextView
+            android:id="@+id/post_timestamp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="5 mins"
