@@ -80,6 +80,7 @@ public class LoginActivity extends Activity implements View.OnClickListener {
             String password =etxtPassword.getText().toString();
             String message = "This function is under construction.\nemail: " + email + "\nPassword: " + password;
             Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+            startMainActivity();
         }
 
         else if (view.getId() == R.id.txt_forgotPassword){
