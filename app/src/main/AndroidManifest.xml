@@ -23,6 +23,7 @@
         <activity android:name=".NewAccountActivity"/>
         <activity android:name=".SettingActivity"/>
         <activity android:name=".ResetPasswordActivity"/>
+        <activity android:name=".UserSetUpProfileActivity"/>
     </application>
 
 </manifest>
