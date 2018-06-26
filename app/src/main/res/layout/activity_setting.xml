@@ -35,6 +35,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ln_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -43,6 +44,7 @@
         android:layout_marginRight="30dp">
 
         <ImageView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_action_email"
@@ -58,6 +60,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ln_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -66,6 +69,7 @@
         android:layout_marginRight="30dp">
 
         <ImageView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_action_password"
@@ -81,6 +85,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ln_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -89,6 +94,7 @@
         android:layout_marginRight="30dp">
 
         <ImageView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_action_save"
@@ -104,6 +110,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ln_post_you_liked"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -112,6 +119,7 @@
         android:layout_marginRight="30dp">
 
         <ImageView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_action_mainheart"
@@ -127,6 +135,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ln_search_history"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -135,6 +144,7 @@
         android:layout_marginRight="30dp">
 
         <ImageView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_action_search"
@@ -150,6 +160,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ln_language"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -158,6 +169,7 @@
         android:layout_marginRight="30dp">
 
         <ImageView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_action_language"
@@ -173,6 +185,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ln_log_out"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"

@@ -7,7 +7,6 @@ import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -32,10 +31,10 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         Button btnSignup = findViewById(R.id.btn_signup);
 
 //        Reference to Facebook imageView
-        ImageView imgLoginwithFaccbook = findViewById(R.id.img_facebook);
+        Button imgLoginwithFaccbook = findViewById(R.id.btn_facebook);
 
 //        Reference to Google image
-        ImageView imgLoginWithGoogle = findViewById(R.id.img_google);
+        Button imgLoginWithGoogle = findViewById(R.id.btn_google);
 
 //        Set Onclick listener to forgotpassword
         txtForgotPassword.setOnClickListener(this);
