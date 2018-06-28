@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_action_home"
+        android:title="Home"/>
+    <item android:id="@+id/navigation_matching"
+        android:icon="@drawable/ic_action_matching"
+        android:title="Matching"/>
+    <item android:id="@+id/navigation_post"
+        android:icon="@drawable/ic_action_add_circle"
+        android:title="Post"/>
+    <item android:id="@+id/navigation_notification"
+        android:icon="@drawable/ic_action_notification"
+        android:title="Notification"/>
+    <item android:id="@+id/navigation_user_profile"
+        android:icon="@drawable/ic_action_user"
+        android:title="User Profile"/>
+</menu>
