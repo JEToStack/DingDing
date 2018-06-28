@@ -32,8 +32,6 @@ public class MatchingCard {
     }
 
 
-
-
     @Resolve
     public void onResolve(){
         userImageView.setImageResource(mUserInfo.getUserImg());
