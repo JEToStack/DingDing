@@ -40,7 +40,6 @@ public class MatchingCard {
     @SwipeOut
     public void onSwipedOut(){
         Log.d("EVENT","onSwipedOut");
-        mSwipeView.addView(this);
     }
 
     @SwipeCancelState
