@@ -23,7 +23,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/ic_action_profile"
-            />
+            android:background="@drawable/custom_circle_background"/>
 
     </LinearLayout>
 
@@ -81,7 +81,7 @@
             android:text="Or Login With"
             android:layout_centerInParent="true"
             android:layout_below="@id/btn_login"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="30dp"/>
         <Button
             android:id="@+id/btn_facebook"
             android:layout_width="125dp"
@@ -93,7 +93,7 @@
             android:textColor="#fff"
             android:background="@color/colorPrimary"
             android:drawableStart="@drawable/ic_logo_facebook"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="30dp"/>
 
         <Button
             android:id="@+id/btn_google"
@@ -108,7 +108,7 @@
             android:paddingRight="5dp"
             android:drawableTint="#fff"
             android:background="@color/colorPrimary"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="30dp"/>
 
         <TextView
             android:id="@+id/txt_dontHaveAccountyet"
@@ -116,7 +116,7 @@
             android:layout_height="wrap_content"
             android:text="Don't have Account yet?"
             android:layout_below="@id/btn_facebook"
-            android:layout_marginTop="20dp"/>
+            android:layout_marginTop="30dp"/>
 
         <Button
             android:id="@+id/btn_signup"
@@ -125,7 +125,7 @@
             android:background="@drawable/custom_border_background"
             android:layout_below="@id/btn_google"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:text="Sign Up"/>
 
     </RelativeLayout>
