@@ -64,6 +64,7 @@ ACCOUNT"
             android:paddingStart="40dp"/>
     </RelativeLayout>
     <Button
+        android:id="@+id/btn_next_to_usersetupprofile"
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
         android:layout_width="50dp"
